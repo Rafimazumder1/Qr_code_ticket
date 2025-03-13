@@ -21,7 +21,7 @@ export default defineConfig({
     }),
   ],
   build: {
-    outDir: 'dist',  // Change to 'dist' to match Vercel's expectations
+    outDir: 'public',  // Change to 'dist' to match Vercel's expectations
     manifest: true,          // Generate a manifest for Laravel
     rollupOptions: {
       input: 'resources/js/app.js', // Define entry point for JS (usually needed in Laravel)
